@@ -1,6 +1,8 @@
 Omrails::Application.routes.draw do
   get 'about' => 'pages#about'
   get 'contact' => 'pages#contact'
+  get 'other' => 'pages#other'
+  get 'links' => 'pages#links'
 
   root :to => 'pages#home'
 
